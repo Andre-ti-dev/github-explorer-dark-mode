@@ -51,7 +51,7 @@ export const Form = styled.form<FormProps>`
     transition: background-color 0.2s;
 
     &:hover {
-      background: ${shade(0.2, '#04d361')};
+      background: ${props => shade(0.2, props.theme.colors.button.background)};
     }
   }
 `;
